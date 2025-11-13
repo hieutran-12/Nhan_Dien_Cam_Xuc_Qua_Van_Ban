@@ -192,38 +192,4 @@ GET /api/health
 4. Click "Phân tích cảm xúc"
 5. Xem kết quả với biểu đồ chi tiết
 
-## 🔧 Tùy chỉnh
 
-### Thêm cảm xúc mới
-
-1. **Backend:** Sửa `EMOTION_LABELS` trong `config.py`
-2. **Frontend:** Thêm config trong `utils/emotionConfig.js`
-
-### Thay đổi model
-
-Sửa `MODEL_PATH` trong `config.py` hoặc file `.env`
-
-## 🐛 Troubleshooting
-
-### Lỗi CORS
-
-Đảm bảo `flask-cors` đã được cài đặt và import trong `app.py`
-
-### Model không load được
-
-- Kiểm tra đường dẫn MODEL_PATH
-- Đảm bảo model đã được download đầy đủ
-- Kiểm tra RAM (model cần ~2GB)
-
-### Frontend không kết nối được Backend
-
-- Kiểm tra Backend đang chạy tại port 5000
-- Kiểm tra URL trong `services/api.js`
-
-## 📝 License
-
-MIT License
-
-## 👥 Contributors
-
-Phát triển bởi đội ngũ AI của bạn 🚀
