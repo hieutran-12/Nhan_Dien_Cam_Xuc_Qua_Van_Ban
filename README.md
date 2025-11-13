@@ -1,6 +1,6 @@
-# 🧠 Hệ thống Phân tích Cảm xúc - BARTPho
+# 🧠 Hệ thống Phân tích Cảm xúc
 
-Hệ thống phân tích cảm xúc văn bản tiếng Việt sử dụng BARTPho và Transformers.
+Hệ thống phân tích cảm xúc văn bản tiếng Việt sử dụng PhoBert và Transformers.
 
 ## 📋 Tính năng
 
