@@ -1,4 +1,4 @@
-# 🧠 Hệ thống Phân tích Cảm xúc
+# 🧠 Hệ thống Phân tích Cảm xúc qua văn bản
 
 Hệ thống phân tích cảm xúc văn bản tiếng Việt sử dụng PhoBert và Transformers.
 
